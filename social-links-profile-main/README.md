@@ -24,7 +24,7 @@ To see how you can add code snippets, see below:
 ```html
 <div class="avatar_img">
   <img
-    src="../social-links-profile-main/assets/images/avatar-jessica.jpeg"
+    src="./assets/images/avatar-jessica.jpeg"
     alt="avatar-jessica"
   />
 </div>
@@ -61,4 +61,3 @@ button {
 ## Author
 -LinkedIn - [www.linkedin.com/in/mohey-mandour309]
 - Frontend Mentor - [@moheymandour](https://www.frontendmentor.io/profile/moheymandour)
-
