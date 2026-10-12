@@ -5,7 +5,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL:https://github.com/moheymandour/Frontend-Mentor/tree/main/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://frontend-mentor-social-links-profil-six.vercel.app/)
 
 ### Built with
 
@@ -57,8 +57,8 @@ button {
 }
 ```
 
-## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## Author
+-LinkedIn - [www.linkedin.com/in/mohey-mandour309]
+- Frontend Mentor - [@moheymandour](https://www.frontendmentor.io/profile/moheymandour)
+
