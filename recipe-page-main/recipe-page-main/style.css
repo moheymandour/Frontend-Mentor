@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  width: 680px;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main-info {
+  margin: 20px 0;
+}
+.name-recipe {
+  margin-bottom: 20px;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 20px;
+  line-height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.preparation > h3 {
+  color: hsl(332, 51%, 32%);
+}
+.preparation > ul {
+  margin-left: 20px;
+}
+.preparation > ul > li {
+  padding-left: 15px;
+}
+
+.ingredients {
+  margin-bottom: 20px;
+}
+.ingredients > h2 {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients > ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.ingredients > ul > li {
+  padding-left: 15px;
+}
+
+.instructions {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.instructions > h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions > ol > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.instructions > ol {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.instructions > ol > li {
+  padding-left: 15px;
+}
+
+.nutrition {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 35px;
+}
+.nutrition > h2 {
+  color: hsl(14, 45%, 36%);
+}
+table {
+  border-collapse: collapse;
+  width: 97%;
+  margin-left: 15px;
+}
+.weight {
+  padding-left: 7vw;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+table tr {
+  border-bottom: 1px solid gray;
+}
+.kind {
+  padding-left: 2vw;
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .container img {
+    display: block;
+    width: calc(100% + (30px * 2));
+
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -30px;
+
+    max-width: none;
+  }
+  .container img {
+    border-radius: 0;
+  }
+  .nutrition > p {
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+
+  table {
+    width: 90%;
+  }
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
